@@ -1,0 +1,9 @@
+---
+layout: page
+title: 分类
+permalink: /categories/
+---
+<p>从不同的方向，回看生活与成长。</p>
+<nav class="category-links" aria-label="分类导航">{% for category in site.data.categories %}<a href="#{{ category.name | uri_escape }}">{{ category.name | escape }}</a>{% endfor %}</nav>
+{% for category in site.data.categories %}<section class="category-section" id="{{ category.name | escape }}"><h2>{{ category.name | escape }}</h2><p class="muted">{{ category.description | escape }}</p>{% assign posts = site.categories[category.name] %}{% if posts.size > 0 %}<ul class="journal-list">{% for post in posts %}{% include post-card.html post=post %}{% endfor %}</ul>{% else %}<p class="empty-small">这一页，留给接下来的记录。</p>{% endif %}</section>{% endfor %}
+{% for category in site.categories %}{% assign known = site.data.categories | where: 'name', category[0] %}{% if known.size == 0 %}<section class="category-section" id="{{ category[0] | escape }}"><h2>{{ category[0] | escape }}</h2><ul class="journal-list">{% for post in category[1] %}{% include post-card.html post=post %}{% endfor %}</ul></section>{% endif %}{% endfor %}

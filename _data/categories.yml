@@ -1,0 +1,10 @@
+- name: 学习
+  description: 把新知识变成自己的理解。
+- name: 运动
+  description: 记录每一次出发与坚持。
+- name: 读书
+  description: 留下书页之外的思考。
+- name: 感悟
+  description: 为生活中的发现留一笔。
+- name: 经历
+  description: 收藏走过的路与遇见的故事。

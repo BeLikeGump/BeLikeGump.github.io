@@ -1,18 +1,18 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
+这里是 **Be Like Gump**，一个记录生活与成长的个人空间。
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+我希望在这里留下学习、运动、读书、感悟与各种经历，也记录自己对工作和生活的思考。如果这些内容能带给你一点启发，那真是再好不过了。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### 这里会记录什么
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- **学习**：新知识、实践过程和复盘。
+- **运动**：训练、日常活动与身体的反馈。
+- **读书**：阅读笔记、书评与延伸思考。
+- **感悟**：生活中的发现、问题和想法。
+- **经历**：旅行、尝试与值得记住的时刻。
 
-
-[jekyll-organization]: https://github.com/jekyll
+保持好奇，认真生活。这个空间会随着日常记录，慢慢生长。

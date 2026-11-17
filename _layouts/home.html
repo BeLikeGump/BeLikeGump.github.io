@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<section class="intro"><span class="eyebrow">BE LIKE GUMP · 生活与成长</span><h1>保持好奇，认真生活。</h1><p>{{ site.description | escape }}</p><a href="{{ '/about/' | relative_url }}">关于这里 →</a></section>
+<div class="section-heading"><h2>最近的记录</h2><a href="{{ '/archive/' | relative_url }}">全部归档 →</a></div>
+<nav class="category-links" aria-label="文章分类">{% for category in site.data.categories %}<a href="{{ '/categories/' | relative_url }}#{{ category.name | uri_escape }}">{{ category.name | escape }}</a>{% endfor %}</nav>
+{% if site.posts.size > 0 %}<ul class="journal-list">{% for post in site.posts %}{% include post-card.html post=post %}{% endfor %}</ul>{% else %}<div class="empty-state"><h3>故事，从下一笔开始。</h3><p>这里将记录学习、运动、读书、感悟与经历。第一篇手记正在酝酿中。</p></div>{% endif %}
+<p class="rss-subscribe"><a href="{{ '/feed.xml' | relative_url }}">通过 RSS 订阅更新 ↗</a></p>
